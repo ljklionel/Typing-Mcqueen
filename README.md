@@ -2,7 +2,7 @@
 
 This is a speed typing game inspired by https://monkeytype.com/ built purely using HTML, CSS and Javascript with no libraries. 
 
-> :warning: **As this is the first (maybe only) version, there are tons of bugs. If it bothers you, ~cry~ please dm me :)**
+> :warning: **As this is the first (maybe only) version, there are tons of bugs. If it bothers you, ~cry~ please make a pr of the fix :)**
 
 ## Please read the following before attempting:
 - The moment you press spacebar, you cannot return to the previous word.
