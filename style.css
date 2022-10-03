@@ -1,0 +1,226 @@
+body {
+    background-color: #555555;
+    font-family: 'Roboto Mono';
+    min-height: 100vh;
+}
+
+h1 {
+    color: cyan;
+    vertical-align:middle;
+    font-size: 50px;
+}
+
+.activeLetter {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.accuracy-count, .wpm-count, .errors-count {
+    font-size: 20px;
+}
+
+.correctLetter {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: inherit;
+    text-decoration-color: inherit;
+}
+
+.container {
+    text-align:center;
+}
+
+/* .difficulty {
+    border-radius: 0 25px 0 0;
+    background: cyan;
+    color:#555555;
+    padding: 1%;
+} */
+
+.cursor {
+    font-size: 1.5rem;
+    animation: blink 1s infinite;
+    background: cyan;
+    opacity: 1;
+    top: 3.6px;
+    left: 5px;
+    width: .05em;
+    height: 30px;
+    position: absolute;
+    transform-origin: top left;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.easy {
+    border-radius: 25px 0 0 25px;
+    background: cyan;
+    color:#555555;
+    cursor: pointer;
+    opacity: 100%;
+    padding: 2%;
+    white-space: pre;
+}
+
+.hard {
+    border-radius: 0 25px 25px 0;
+    background: cyan;
+    color:#555555;
+    cursor: pointer;
+    opacity: 50%;
+    padding: 2%;
+}
+
+/* .time {
+    border-radius: 25px 0 0 0;
+    background: cyan;
+    color:#555555;
+    padding: 1%;
+} */
+
+.letter {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: inherit;
+    text-decoration-color: inherit;
+}
+
+.metric {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 1 0px;
+    margin-top: 1%;
+}
+
+.main {
+    display: grid;
+    /* grid-template-columns: auto minmax(0,1000px); */
+    justify-content: center;
+}
+
+.refresh {
+    color: cyan;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.selected-diff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.sixty {
+    border-radius: 0 25px 25px 0;
+    background: cyan;
+    color:#555555;
+    cursor: pointer;
+    margin-bottom: 1%;
+    opacity: 50%;
+    padding: 1%;
+}
+
+.test-area {
+    /* margin: 1% 5% 1% 5%; */
+    /* display: grid; */
+    /* grid-template-rows: 1fr auto 1fr; */
+    max-width: 1000px;
+    width: 100%;
+}
+
+.text-area {
+    height: 117px;
+    color: #999999;
+    overflow: hidden;
+    position: relative;
+    outline: none;
+}
+
+.timer {
+    visibility: hidden;
+    color: cyan;
+    /* display: grid; */
+    margin-top: 8%;
+    font-size: 20px;
+}
+
+.thirty {
+    border-radius: 25px 0 0 25px;
+    background: cyan;
+    color:#555555;
+    cursor: pointer;
+    margin-bottom: 1%;
+    opacity: 100%;
+    padding: 1%;
+}
+
+.correct, .last, .firstLast, .correctLast, .correctFirst, .word {
+    font-size: 0;
+    margin: 6px;
+}
+
+.errors, .accuracy, .wpm {
+  background: cyan;
+  color:#555555;
+  height: 60px;
+  width: 100px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 25px;
+}
+
+.words {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* overflow: hidden; */
+    /* justify-content: center; */
+    /* overflow: hidden; */
+    /* margin-left: unset; */
+}
+
+.wrongAddedLetter, .wrongLetter {
+    display: inline-block;
+    font-size: 20px;
+    color: orangered;
+    text-decoration: inherit;
+    text-decoration-color: inherit;
+    
+}
+
+.wrong, .wrongLast, .wrongFirst {
+    font-size: 0;
+    margin: 6px;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+
+/* .container {
+    background-color: #555555,
+}
+
+.secondary {
+    color: #92bbff,
+} */

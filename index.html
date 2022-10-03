@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>Typing McQueen</h1>
+        <!-- <div class="selection">
+            <div class="time">Duration</div>
+            <div class="difficulty">Difficulty</div>
+        </div> -->
+        <div class="selected-time">
+            <div class="thirty">30s</div>
+            <div class="sixty">60s</div>
+        </div>
+        <div class="selected-diff">
+            <div class="easy">Easy</div>
+            <div class="hard">Hard</div>
+        </div>
+        <div class="main">
+          <div class="metric">
+              <div class="accuracy">
+                <div class="head">Accuracy(%)</div>
+                <div class="accuracy-count">-</div>
+              </div>
+              <div class="wpm">
+                  <div class="head">Words/min</div>
+                  <div class="wpm-count">-</div>
+              </div>
+              <div class="errors">
+                  <div class="head">Errors</div>
+                  <div class="errors-count">-</div>
+              </div>
+          </div>
+            <div class="test-area">
+                <div class="timer">30</div>
+                <div tabindex="0" class="text-area">
+                    <div class="cursor"></div>
+                    <div class="words"></div>
+                </div>
+            </div>
+        </div>
+        <img tabindex="0" src="asset/refresh-svgrepo-com.svg" alt="Referesh button" class="refresh" />
+    </div>
+    <script src="main.js"></script> 
+</body>
+</html>
