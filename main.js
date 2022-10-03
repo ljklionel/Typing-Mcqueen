@@ -148,7 +148,7 @@ function updateTimer() {
       countdown--;
       timer[0].textContent = countdown;
     } else {
-      // finishGame();
+      finishGame();
     }
 }
 
